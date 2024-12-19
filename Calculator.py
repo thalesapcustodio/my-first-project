@@ -2,6 +2,7 @@ def mult(num):
    resultado = float(num) * float(multiplicador)
    return resultado
 
+print("test2")
 
 ####################
 print("Calculadora de multiplicação \n")
