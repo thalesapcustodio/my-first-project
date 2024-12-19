@@ -1,26 +1,20 @@
-####################
-
-
-print("Calculadora de números")
-
-
-####################
-def mult(numero):
-   resultado = float(numero) * float(multiplicador)
+def mult(num):
+   resultado = float(num) * float(multiplicador)
    return resultado
 
 
-print("Calculdadora de multiplicação")
-print("")
+####################
+print("Calculadora de multiplicação \n")
+####################
 
 
 while True:
    numero = input("Número a ser multiplicado: ")
-   if numero.isdigit() == True:
+   if numero.isdigit():
       multiplicador = input("Vezes: ")
 
 
-      if multiplicador.isdigit() == True:
+      if multiplicador.isdigit():
          print("Resultado: ",(mult(numero)))
          print("")
 
